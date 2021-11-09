@@ -55,7 +55,7 @@ obs:
     api: https://api.suse.de
     internal: true
 
-  - project: Devel:YaST:SLE-15
+  - project: Devel:YaST:SLE-12-SP3
     api: https://api.suse.de
     internal: true
 
@@ -63,6 +63,34 @@ obs:
     api: https://api.suse.de
     internal: true
 
-  - project: Devel:YaST:SLE-12-SP3
+  - project: Devel:YaST:SLE-12-SP5
+    api: https://api.suse.de
+    internal: true
+
+  - project: Devel:YaST:SLE-15
+    api: https://api.suse.de
+    internal: true
+
+  - project: Devel:YaST:SLE-15-SP1
+    api: https://api.suse.de
+    internal: true
+
+  - project: Devel:YaST:SLE-15-SP1-QR
+    api: https://api.suse.de
+    internal: true
+
+  - project: Devel:YaST:SLE-15-SP2
+    api: https://api.suse.de
+    internal: true
+
+  - project: Devel:YaST:SLE-15-SP2-QR
+    api: https://api.suse.de
+    internal: true
+
+  - project: Devel:YaST:SLE-15-SP3
+    api: https://api.suse.de
+    internal: true
+
+  - project: Devel:YaST:SLE-15-SP3-QR
     api: https://api.suse.de
     internal: true
