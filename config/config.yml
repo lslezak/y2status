@@ -94,3 +94,8 @@ obs:
   - project: Devel:YaST:SLE-15-SP3-QR
     api: https://api.suse.de
     internal: true
+
+  - project: Devel:YaST:SLE-15-SP4
+    api: https://api.suse.de
+    internal: true
+
