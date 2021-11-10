@@ -78,6 +78,13 @@ footer {
   padding: 20px 0;
   font-size: small;
 }
+
 footer:hover {
   color: black;
+}
+
+footer a {text-decoration: underline; color: inherit;}
+
+footer:hover a {
+  color: inherit;
 }
