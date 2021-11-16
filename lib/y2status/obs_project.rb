@@ -108,7 +108,7 @@ module Y2status
       print_progress("Running \"#{cmd}\"...")
 
       begin
-        out = Timeout.timeout(15) { `#{cmd}` }
+        out = Timeout.timeout(30) { `#{cmd}` }
       rescue Timeout::Error
         @error_requests = "Command #{cmd} timed out"
         print_error(error_requests)
