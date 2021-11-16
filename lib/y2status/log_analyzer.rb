@@ -6,7 +6,8 @@ module Y2status
     attr_reader :log
 
     def initialize(log)
-      @log = log
+      # remove invalid UTF-8 characters in the log so string operations do not crash with exception
+      @log = log.encode(::Encoding::UTF_8, invalid: :replace, undef: :replace, replace: "")
     end
 
     #
