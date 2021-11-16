@@ -16,7 +16,9 @@ module Y2status
     def download_url(url)
       print_progress("Downloading #{url}...")
       # -s silent, -L follow redirects
-      `curl --connect-timeout 15 --max-time 30 -sL #{Shellwords.escape(url)}`
+      text = `curl --connect-timeout 15 --max-time 30 -sL #{Shellwords.escape(url)}`
+      text.force_encoding("BINARY") unless text.valid_encoding?
+      text
     end
   end
 end
