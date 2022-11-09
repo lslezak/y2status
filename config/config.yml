@@ -32,17 +32,6 @@ obs:
   - project: YaST:SLE-12:SP4
   - project: YaST:SLE-12:SP3
   - project: devel:libraries:libyui
-  - project: system:install:head
-    # only the packages maintained by the YaST team
-    packages:
-      - checkmedia
-      - hwinfo
-      - installation-images
-      - libx86emu
-      - linuxrc
-      - linuxrc-devtools
-      - mkdud
-      - mksusecd
 
   # IBS projects
   - project: Devel:YaST:Head
