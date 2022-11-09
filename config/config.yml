@@ -21,9 +21,6 @@ jenkins:
   - label: Internal Jenkins - libyui
     url: https://ci.suse.de/view/libyui
     internal: true
-  - label: Internal Jenkins - InstallTools
-    url: https://ci.suse.de/view/InstallTools
-    internal: true
 
 obs:
   # OBS projects
